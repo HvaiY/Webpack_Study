@@ -1,0 +1,28 @@
+{
+  "name": "weboacksampleproject",
+  "version": "1.0.0",
+  "description": "- 全局安装\r `npm install -g webpack`  略\r - 安装到你的项目目录\r `npm install --save-dev webpack`\r -  [Redux教程](https://redux.js.org/introduction/getting-started)\r -  [NetCore2.1认证](http://jasonwatmore.com/post/2018/06/26/aspnet-core-21-simple-api-for-authentication-registration-and-user-management)\r -  [React](http://www.runoob.com/react/react-tutorial.html)",
+  "main": "index.js",
+  "dependencies": {
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "webpack-cli": "^3.1.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^4.27.1",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "server": "webpack-dev-server --open"
+  },
+  "author": "",
+  "license": "ISC"
+}
